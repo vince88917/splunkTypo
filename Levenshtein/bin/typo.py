@@ -28,7 +28,7 @@
 | spath path=events{}
 | mvexpand events{}
 | spath input="events{}"
-| eventingcsc compfield=search partitionby=user windowtime=5 levdist=2 damdist=1 timefield=time
+| typo compfield=search partitionby=user windowtime=5 levdist=2 damdist=1 timefield=time
 | table user time search app
 """
 
